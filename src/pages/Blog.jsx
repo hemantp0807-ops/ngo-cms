@@ -10,7 +10,7 @@ function Blog() {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:8000/api/blog/')
+      .get('https://ngo-cms-ccss.onrender.com/api/blog/')
       .then((response) => {
         setArticles(response.data)
       })
